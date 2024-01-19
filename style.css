@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Nanum+Gothic&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(image.jpg);
+   background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  
+    
+
+ 
+  
+   font-family: 'Playfair Display', serif;
+    
+}
+nav{
+    display: flex;
+}
+ li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0 28px;
+    font-size: x-large;
+    
+}
+.nav1{
+    display: flex;
+  margin-top: 20px;
+
+  
+}
+.nav1 ul li{
+    margin-left: 70px;
+}
+.nav2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    
+    margin: 20px 0px 0px 600px
+}
+.image img{
+   border: 2px solid black;
+   border-radius: 145px;
+    margin-top: 55px;
+    height: 140px;
+    width: 165px;
+
+}
+.image p{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+   
+  
+}
+.buttons .hire-me input{
+    background-color: green;
+    color: white;
+    padding: 7px;
+    width: 230px
+
+}
+.buttons .cv input{
+     background-color: green;
+    color: white;
+
+    margin: 0px 15px;
+    padding: 7px;
+    width: 240px
+}
+.social-media ul{
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+.twitter img{
+    width: 138px;
+    height: 78px;
+    margin-top: 13px;
+   
+}
+.insta img{
+    height: 78px;
+    border-radius: 43px;
+    margin: 10px 0 0 0;
+    width: 85px
+}
+.linkedin{
+    margin-left: 15px;
+   
+}
+.linkedin img{
+    border-radius: 50px;
+    height: 85px;
+}
+.container{
+  
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+   align-items: center;
+   border: 4px groove #faeeee;
+   box-shadow: 5px;
+   background-color: whitesmoke;
+
+   
+}
+.container p{
+    
+}
+.bold{
+    font-size: xx-large;
+    font-weight: bolder;
+  padding: 5px 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+.social-media{
+    margin-top: 90px;
+}
+.container .about-me{
+    font-size: x-large;
+    margin-bottom: 174px;
+
+}
+.container .basic-info{
+    margin: 0px 0px 0px 40px;
+    font-size: x-large;
+}
+.container .basic-info table tr td{
+    padding-bottom: 35px;
+}
+.skills{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    
+   
+    height: 200px;
+    width: 100%;
+    border: 4px groove #faeeee;
+    background-color: whitesmoke;
+
+  
+}
+
+.progress{
+    font-size: large;
+    font-weight: bold;
+}
+
+.skills .skills1 progress{
+    width: 50vh;
+    background-color: aquamarine;
+    margin: 30px 15px;
+    border: 4px solid #1c3b02;
+   
+}
+.skills .skills2 progress{
+    width: 50vh;
+    background-color: aquamarine;
+    margin: 30px 15px;
+    border: 4px solid #1c3b02;
+}
+.slides{
+    display: flex;
+    justify-content: center;
+    margin: 39px 0px;
+   
+}
+.slide2{
+    display: flex;
+    justify-content: center;
+}
+.row p{
+    margin:100px 0px;
+    
+}
+.slides .project1 img{
+    width: 825px;
+    height: 500px;
+}
+.row .slides .project2{
+    margin-left: 30px;
+}
+.row .slide2 .project4{
+    margin-left: 30px;
+}
+.slides .project1:hover{
+    background-color: rgb(40, 114, 68);
+    
+   
+}
+.experience{
+    margin: auto;
+}
+.experience .bold{
+    text-align: center;
+    margin: 100px 0px;
+}
+ .experience .cards{
+    width: 1110px;
+    display: flex;
+    margin: auto;
+    border: 4px solid black;
+}
+.cards .card1{
+    width: 20vw;
+    height:115px ;
+    background-color: rgb(19, 102, 23);
+}
+.cards .card2{
+    width: 54vw;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.card1 p{
+text-align: center;
+align-items: center;
+color: white;
+font-size: xx-large;
+font-weight: bolder;
+padding-top: 30px;
+}
+.cards .card2 p{
+
+    font-size: xx-large;
+   
+    
+    
+}
+.certificates .cert{
+    display: flex;
+    margin: auto;
+    background-color: antiquewhite;
+    width: 74vw;
+    border: 4px solid black
+}
+.certificates .cert table tr th{
+    text-decoration: underline;
+  padding: 25px 5px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.td{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+table tr .td1{
+    background-color:#136617 ;
+    color: white;
+    
+    border:2px solid #136617;
+}
+.certificates .cert table tr td a{
+    color: blue;
+    text-decoration: underline;
+    margin-left: 300px;
+
+}
+
+
+.education{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+.education .hsc,.iti,.ssc,.adit{
+   display: flex;
+   margin:  25px auto;
+   border: 4px solid black;
+   
+
+}
+.left{
+ 
+    width: 20vw;
+    height:115px ;
+    background-color: #136617;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right{
+    width: 54vw;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-color: antiquewhite;
+}
+.form .bg-image{
+  
+   background-image: url('map.png');
+   background-size: cover;
+   height: 750px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+.form .bg-image .contact{
+    height: 500px;
+    width: 620px;
+    background-color: white;
+    border: 4px solid gray;
+    display: flex;
+    
+}
+
+.left1 form{
+    margin: 65px 0px 0px 16px
+}
+.left1 form .button button{
+    width: 89px;
+    height: 30px;
+    border-radius: 19px;
+    margin: 10px auto;
+    background-color: darkgreen;
+    color: white;
+}
+.left1 form .button button:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+.left1 form div textarea{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid green;
+}
+.space{
+    margin: 20px 0px;
+}
+.space input{
+    width: 280px;
+    height: 45px;
+    border: 2px solid #9e9e9e;
+    border-radius: 22px;
+}
+.right1{
+    display: flex;
+    flex-direction: column;
+    margin: 118px 0px 0px 23px;
+}
+.right1 div{
+    margin-bottom: 20px;
+}
+.font{
+font-weight: bolder;
+}
+footer{
+    height: 100px;
+    font-size: xx-large;
+    font-family: 'Playfair Display', serif;
+
+}
+footer p{
+    text-align: center;
+   
+}
